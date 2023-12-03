@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>BANCO EBAC</title>
+</head>
+<body>
+    <h1> BANCO EBAC </h1>
+    <h2> Cuidar do seu dinheiro é nossa prioridade.</h2>
+    <form id="form"> <!--inicio do formulario-->
+        <div class="container"> <!--dvisão dos comandos-->
+            <div class="caixa">
+                <label for="saldo"> Saldo: </label>
+                <input type="number" id="saldo"> <!--entrada de dados pelo usuario-->
+
+                <label for="saque"> Saque: </label>
+                <input type="number" id="saque">
+        
+                <button type="submit" id="sacar" > Sacar </button>
+    </form>      
+            <span id="saqueRealizado"> Saque realizado com sucesso.</span>
+            <span id="erro"> Não foi possivel realizar o saque com as informações inseridas , tente novamente. </span>
+            </div>
+        </div>
+        <script src="./main.js"> </script>
+</body>
+</html>
